@@ -43,7 +43,7 @@ public class AnswerReader : MonoBehaviour
         else{
             WrongUI.gameObject.SetActive(true);
             StartCoroutine(HideLifeLostText());
-            QuizManager.publicLife--;
+            choiceDifficulty.difficulty--;
         }
     }
 

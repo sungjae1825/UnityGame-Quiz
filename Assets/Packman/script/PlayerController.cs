@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private AroundWrap aroundWrap;
     private SpriteRenderer spriteRenderer;
     private AudioSource itemAudioSource;
-    public static int packmanLife = QuizManager.publicLife;
+
     
     
 
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
 
-        lifeUI.text = packmanLife.ToString();
+        lifeUI.text = choiceDifficulty.difficulty.ToString();
         Debug.Log(lifeUI);
         if(Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -115,8 +115,8 @@ public class PlayerController : MonoBehaviour
 
             //enemyCollisionCount++; // 아이템과 충돌 횟수 증가
           
-            packmanLife--;
-            if (packmanLife == 0)
+            choiceDifficulty.difficulty--;
+            if (choiceDifficulty.difficulty == 0)
             {
                 changeScene.ChangeScene("gameOverP");
                

@@ -14,15 +14,13 @@ public class PackmanManager : MonoBehaviour
     public static bool nextFlag = false; 
     public static bool clearFlag = false;
 
-    public static int publicLife = 10;
-
     void Update(){
         // 목숨 수를 life 오브젝트에 넣는 함수.
         // int publicLife = choiceDifficulty.difficulty;
-        life.text = publicLife.ToString();
+        life.text = choiceDifficulty.difficulty.ToString();
 
         // 목숨이 0이 되면 gameOver 화면으로 넘어가게 함.
-        if(publicLife==0){
+        if( choiceDifficulty.difficulty==0){
             changeScene.ChangeScene("gameOverP");
         }
         // 클리어 버튼 활성화/비활성화 하기 위한 코드.
