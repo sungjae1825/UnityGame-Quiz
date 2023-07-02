@@ -31,7 +31,7 @@ public class NextBtnEvent : MonoBehaviour
             changeScene.ChangeScene("index");
         }
         if (TimeManager.timeOverTrigger){
-            QuizManager.publicLife--;
+            choiceDifficulty.difficulty--;
         }
         // next 버튼 클릭 후 처리.
         QuestionAndAnswerTextChanger.trigger++;
