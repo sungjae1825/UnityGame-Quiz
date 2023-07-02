@@ -1,0 +1,32 @@
+# 유니티 UI 구성
+Hierarchy :
+오브젝트들 관리하는 곳.
+
+Inspector :
+오브젝트 옵션 설정하는 곳.
+
+Project : 
+c#스크립트, 여러 에셋들 관리하는 곳.
+
+Console :
+에러 및 로그 출력하는 곳.
+Debug.Log();로 출력 가능하다.
+
+## Button 오브젝트
+Button 오브젝트 click 이벤트 관리하는 법.
+c#스크립트로 코딩하고 Inspector에 Add Component로 스크립트 드래그앤드랍 후
+On Click() 옵션의 +를 누른 후 추가한 스크립트를 드래그앤드랍으로 
+넣는다. 그리고 코딩한 function을 지정한다.
+
+## GameObject 스크립트 제어
+공통적인 스크립트는 GameObject 빈 오브젝트 생성 후 여기에 넣는 게 간단한 듯 하다.
+
+## Object 변수에 할당하기
+public GameObject 변수;
+설정 후 Inspector에 스크립트 추가 후 명명한 변수가 보이는데 거기에 오브젝트 설정
+
+## 스크립트 참조하는 법.
+using System; 상단에 추가 (파이썬의 import 개념과 비슷)
+사용할 스크립트파일.가져올변수or함수명 <- 형식으로 간단하게 사용하다.
+참조되는 스크립트는 public static int 변수명; 
+public static을 사용해야 다른 곳에서 사용 가능한 듯 하다.

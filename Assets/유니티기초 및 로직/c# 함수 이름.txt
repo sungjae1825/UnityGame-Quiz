@@ -1,0 +1,32 @@
+    void Awake(){ // 스크립트 시작할 때 실행
+        Debug.Log("퀴즈 게임 시작!");
+    }
+
+    void OnEnable(){ // 게임 오브젝트가 활성화 되었을 때.
+
+    }
+
+    void Start() // 업데이트 시작 직전, 최초 실행
+    {
+        Debug.Log("Hello Unity!");
+    }
+
+    void FixedUpdate(){ // 물리연산
+        Debug.Log("시간이 간다~");
+    }
+
+    void Update(){ // 주기적으로 실행
+        Debug.Log("선택선택선택");
+    } 
+
+    void LateUpdate(){ // 로직이 모두 끝난 후(카메라 이동, 경험치 흭등 등)
+
+    }
+
+    void OnDisable(){ // 게임 오브젝트가 비활성화 될 때.
+
+    }
+
+    void OnDestroy(){ // 게임 오브젝트가 삭제될 때.
+         Debug.Log("끝났당");
+    }
