@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Packman/Scenes/gameClear.unity
     guid: 241365be3501b5943a7b84603735c05a
+  - enabled: 1
+    path: Assets/Tekken/scenes/tekken.unity
+    guid: 4aebd89c949b7bd4c8e8238f02a234b9
   m_configObjects: {}

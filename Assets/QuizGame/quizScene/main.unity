@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB0D0\uC639\uC774\uC758 \uBAA8\uD5D8"
+  m_text: "\uD034\uC988 \uD480\uAE30"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 58ad5e4ad4820bc4e9799f1ca7d4e4a1, type: 2}
   m_sharedMaterial: {fileID: -366321118452876356, guid: 58ad5e4ad4820bc4e9799f1ca7d4e4a1, type: 2}
@@ -1031,16 +1031,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 154354914}
-        m_TargetAssemblyTypeName: Difficulty, Assembly-CSharp
-        m_MethodName: OptionDown
-        m_Mode: 1
+      - m_Target: {fileID: 1226013819}
+        m_TargetAssemblyTypeName: changeScene, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: quiz
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}

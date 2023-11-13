@@ -5,20 +5,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class choiceDifficulty : MonoBehaviour, IPointerClickHandler
+public class choiceDifficulty : MonoBehaviour
 {
-    public static int difficulty;
+    public static int difficulty = 10;
     // 클릭한 버튼의 name에 따라 목숨 개수 조정하는 함수.
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        string idx = eventData.pointerPress.name;
-        if (idx=="easy"){
-            difficulty = 100;
-        } else if (idx=="basic"){
-            difficulty=10;
-        } else{
-            difficulty=1;
-        }
-    }
+
 
 }

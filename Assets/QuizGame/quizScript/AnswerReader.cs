@@ -6,6 +6,7 @@ using UnityEngine.UI; // Text 컴포넌트에 접근하기 위해 추가해야 �
 using TMPro; // TextMeshPro 바꾸기 위한 using 문
 using UnityEngine;
 
+
 public class AnswerReader : MonoBehaviour
 {    
     private string answer;
